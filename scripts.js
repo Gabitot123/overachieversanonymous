@@ -11,8 +11,3 @@
                 header.classList.remove("scrolled"); // Remove the 'scrolled' class
             }
         });
-    });
-    
-
-
-    
