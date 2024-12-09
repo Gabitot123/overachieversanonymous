@@ -29,13 +29,20 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    background: transparent;
     transition: background 0.3s, padding 0.3s;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 header.scrolled {
     background: rgba(0, 0, 0, 0.8);
     padding: 15px 100px;
+}
+
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 header .logo {
@@ -213,3 +220,16 @@ section {
     }
 }
 
+@media (min-aspect-ratio: 16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
