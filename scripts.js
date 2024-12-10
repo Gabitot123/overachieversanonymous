@@ -11,3 +11,19 @@
                 header.classList.remove("scrolled"); // Remove the 'scrolled' class
             }
         });
+    });
+    
+    function toggleVisibility() {
+        var videoContent = document.getElementById('video-content');
+        if (videoContent.classList.contains('show')) {
+            videoContent.classList.remove('show');
+        } else {
+            videoContent.classList.add('show');
+        }
+    }
+    
+    
+    
+
+
+    
