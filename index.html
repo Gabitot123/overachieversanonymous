@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
@@ -94,9 +94,20 @@
                 <li>Gratitude: Thanking the listeners for tuning in</li>
                 <li>Sign-off: Ending the live with a motivational message.</li>
             </ul>
+                <div class="teaser-container">
+                    <h1 class="teaser-header" onclick="toggleVisibility()">Click to reveal the teaser video</h1>
+                    <div id="video-content" class="video-content">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qPBOjF3yC7c?si=IaNMJ7mxIKaCw4Sp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>All rights reserved to the respective owners. No copyright infringement intended.</p>
+                    </div>
+                </div>
+            </section>            
         </div>
     </section>
 </section>
+
+
+
 
 <!-- New Section Added -->
 <section id="plan">
@@ -125,6 +136,6 @@
     </div>
 </section>
 
-<script src="scripts.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
