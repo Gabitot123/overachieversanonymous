@@ -215,6 +215,36 @@ section {
     font-family: sans-serif;
 }
 
+/* Teaser Section Styles */
+.teaser-container {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.teaser-container .teaser-header {
+    font-size: 2em;
+    color: #1e1a14;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.video-content {
+    display: none; /* Initially hide the video content */
+    margin-top: 20px;
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.video-content.show {
+    display: block;
+    opacity: 1;
+    max-height: 1000px; /* Arbitrary high value to allow full expansion */
+}
+
+
+
 
 /* Media Queries */
 @media (max-width: 768px) {
