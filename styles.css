@@ -243,6 +243,75 @@ section {
     max-height: 1000px; /* Arbitrary high value to allow full expansion */
 }
 
+/* Footer Styles */
+footer {
+    background-color: #1e1a14;
+    color: #f9f4c9;
+    padding: 40px 100px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #f9f4c9;
+}
+
+.footer-section p, 
+.footer-section ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #f9f4c9;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #f9f4c9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #667558;
+}
+
+.social-icons a {
+    color: #f9f4c9;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #667558;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #f9f4c9;
+    text-align: center;
+}
+
+
+
 
 
 
